@@ -24,6 +24,8 @@ This repository serves as a **professional manual quality engineering portfolio 
 ## 📂 Repository Contents
 
 ```text
+├── assets/
+│   └── qlixs_comprehensive_quality_report.jpg  # Multi-platform quality report visual artifact
 ├── reports/
 │   ├── Qlixs_Comprehensive_Quality_Report.pdf  # Executive multi-platform quality audit PDF
 │   └── qlixs-multiplatform-audit.md            # Detailed Markdown report & defect breakdown
@@ -119,19 +121,13 @@ When a developer marks an issue as "Fixed", QA adheres to this verification work
 
 ---
 
-## 📸 Test Execution & Bug Tracking Artifacts
+## 📊 Executive Quality Audit Artifact
 
-### 1. Issue Tracking & Jira Ticket Documentation
-![Bug Ticket](https://github.com/szamanhmm/Manual-Testing-Web-Application/assets/68290828/fac7d247-94b1-4d06-862e-f0281b08d79d)
+<p align="center">
+  <img src="assets/qlixs_comprehensive_quality_report.jpg" alt="Qlixs Multi-Platform Comprehensive Quality Report" width="100%">
+</p>
 
-### 2. Annotated Visual Bug Evidence
-![Annotated Screenshot](https://github.com/szamanhmm/Manual-Testing-Web-Application/assets/68290828/011d7b4e-2991-4e43-a8c4-62495a46eb5d)
-
-### 3. Executive Quality Audit Report
-![Quality Report Sample](https://github.com/szamanhmm/Manual-Testing-Web-Application/assets/68290828/de83049e-0198-46e0-9075-5fe27219dbfb)
-
-### 4. Module-Level Test Survey & Acceptance Checklists
-![Test Survey per Module](https://github.com/szamanhmm/Manual-Testing-Web-Application/assets/68290828/1ea02d20-76e7-404a-8d52-accac2464d76)
+*Figure 1: Full-page executive quality analysis for Qlixs across Android, iOS, Web, and Chrome Extension ([Download Official PDF](reports/Qlixs_Comprehensive_Quality_Report.pdf) | [Read Full Breakdown](reports/qlixs-multiplatform-audit.md)).*
 
 ---
 
