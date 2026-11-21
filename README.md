@@ -69,8 +69,8 @@ This repository serves as a **professional manual quality engineering portfolio 
 Testing is applied in structured layers, preventing wasted engineering hours by verifying foundational stability first:
 
 1. **Smoke Testing (Sanity):** Quick verification of core functionalities (app launch, login, navigation, primary checkout) to ensure the build is not fundamentally broken ("on fire").
-2. **Minimal Acceptance Testing (MAT — The Happy Path):** Validating all user stories with 100% positive data to ensure smooth, intended user workflows.
-3. **Full Acceptance Testing (Full AT — Exhaustive Edge-Case Testing):** Stressing the application with negative checks, extreme boundaries, and equivalence partitioning (EP & BVA) to uncover system-breaking flaws.
+2. **Minimal Acceptance Testing (MAT - The Happy Path):** Validating all user stories with 100% positive data to ensure smooth, intended user workflows.
+3. **Full Acceptance Testing (Full AT - Exhaustive Edge-Case Testing):** Stressing the application with negative checks, extreme boundaries, and equivalence partitioning (EP & BVA) to uncover system-breaking flaws.
 4. **Regression Testing:** Complete verification of adjacent features after bug fixes to ensure code changes have not introduced new defects.
 5. **Exploratory Testing:** Heuristic-driven, unscripted testing utilizing intuition and domain expertise to expose complex race conditions and state mismatches.
 

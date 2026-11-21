@@ -21,18 +21,18 @@ flowchart TD
 - **Scope:** Application launch, database connection, user login, primary navigation, and major purchase/submission endpoint.
 - **Example:** In an e-commerce platform, ensure the user can sign in, search an item, add to cart, and reach the payment screen.
 
-### B. Minimal Acceptance Testing (MAT — The Happy Path)
+### B. Minimal Acceptance Testing (MAT - The Happy Path)
 - **Objective:** Test end-to-end functionality strictly following standard user workflows with valid inputs.
 - **Scope:** 100% positive validation. Ensures that when users behave exactly as expected, the system completes tasks seamlessly.
 
-### C. Full Acceptance Testing (Full AT — Exhaustive Testing)
+### C. Full Acceptance Testing (Full AT - Exhaustive Testing)
 - **Objective:** Stress-test system resilience by deliberately attempting to break inputs, state machines, and concurrency limits.
 - **Key Dimensions:**
-  - **Positive & Negative Checks:** Testing valid credentials alongside malformed inputs (e.g., email without `@`, leading spaces, SQL injection strings, excessive character counts).
-  - **Edge Cases & Boundary Limits:** Testing values precisely at min/max limits (e.g., uploading files at exactly 25.0 MB when the stated threshold is 25 MB).
-  - **Equivalence Partitioning (EP):** Dividing input domains into valid and invalid equivalence classes. Testing one representative value verifies the entire partition.
-  - **Boundary Value Analysis (BVA):** Testing three points for every boundary: `Boundary - 1`, `Exact Boundary`, and `Boundary + 1`.
-  - **Black-Box Testing:** Exercising the system exclusively from the end-user perspective without internal code insight.
+ - **Positive & Negative Checks:** Testing valid credentials alongside malformed inputs (e.g., email without `@`, leading spaces, SQL injection strings, excessive character counts).
+ - **Edge Cases & Boundary Limits:** Testing values precisely at min/max limits (e.g., uploading files at exactly 25.0 MB when the stated threshold is 25 MB).
+ - **Equivalence Partitioning (EP):** Dividing input domains into valid and invalid equivalence classes. Testing one representative value verifies the entire partition.
+ - **Boundary Value Analysis (BVA):** Testing three points for every boundary: `Boundary - 1`, `Exact Boundary`, and `Boundary + 1`.
+ - **Black-Box Testing:** Exercising the system exclusively from the end-user perspective without internal code insight.
 
 ### D. Regression Testing
 - **Objective:** Re-executing functional and non-functional test suites to guarantee that recent bug fixes, dependency updates, or code refactors did not introduce new defects into previously stable features.
@@ -56,12 +56,12 @@ Software must perform reliably across degraded, intermittent, or high-latency ne
 ### B. Web Browser Network Throttling
 - **Tool:** Chrome / Firefox Developer Tools (`Network` tab &rarr; `Throttling` dropdown).
 - **Profiles Used:**
-  - **Fast 3G:** 1.6 Mbps download, 750 Kbps upload, 560 ms RTT.
-  - **Slow 3G:** 500 Kbps download, 500 Kbps upload, 2000 ms RTT.
-  - **Custom Profiles:** Packet drop simulation and offline transition tests.
+ - **Fast 3G:** 1.6 Mbps download, 750 Kbps upload, 560 ms RTT.
+ - **Slow 3G:** 500 Kbps download, 500 Kbps upload, 2000 ms RTT.
+ - **Custom Profiles:** Packet drop simulation and offline transition tests.
 - **Key Observation Criteria:**
-  - Are double-click race conditions prevented on submit buttons via debouncing?
-  - Do timeout handlers display actionable retry prompts rather than unhandled white screens?
+ - Are double-click race conditions prevented on submit buttons via debouncing?
+ - Do timeout handlers display actionable retry prompts rather than unhandled white screens?
 
 ---
 

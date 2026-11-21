@@ -1,4 +1,4 @@
-# QLIXS — Multi-Platform Quality Audit Report
+# QLIXS - Multi-Platform Quality Audit Report
 
 **Product Under Test:** [Qlixs (AI Productivity & Scheduling Platform)](https://dashboard.qlixs.ai)  
 **Lead QA Engineer:** [Saifuz Zaman](https://szamanqa.me) (C4U Tech)  
@@ -68,7 +68,7 @@ Total Defects Detected: 71
 
 ## 5. Strategic QA Recommendations
 
-1. **R1 — UX Architecture for Empty States:** Redesign the *"Interview Section"* empty state with clear calls to action (CTAs) rather than displaying blank containers.
-2. **R2 — Streamline Call Flow:** Remove redundant intermediate confirmation modals in the meeting creation workflow to reduce drop-off rates.
-3. **R3 — Visual State Iconography:** Standardize active vs. inactive toggle states in the *"Ready to Call"* interface to prevent user confusion.
-4. **R4 — Auth & Session Hardening:** Enforce strict server-side validation on email verification before issuing JWT session tokens.
+1. **R1 - UX Architecture for Empty States:** Redesign the *"Interview Section"* empty state with clear calls to action (CTAs) rather than displaying blank containers.
+2. **R2 - Streamline Call Flow:** Remove redundant intermediate confirmation modals in the meeting creation workflow to reduce drop-off rates.
+3. **R3 - Visual State Iconography:** Standardize active vs. inactive toggle states in the *"Ready to Call"* interface to prevent user confusion.
+4. **R4 - Auth & Session Hardening:** Enforce strict server-side validation on email verification before issuing JWT session tokens.

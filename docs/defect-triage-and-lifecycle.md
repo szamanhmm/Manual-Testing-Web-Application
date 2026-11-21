@@ -15,10 +15,10 @@ Every reported defect must follow this standardized schema:
 ### Mandatory Fields:
 1. **Bug ID:** Unique identifier for defect tracking (e.g., `BUG-101`, `QLX-48`).
 2. **Summary:** Concise headline using the **What, Where, When** format.
-   - *Example:* `App crashes (What) on the Login Screen (Where) when entering an invalid password containing emojis (When).`
+  - *Example:* `App crashes (What) on the Login Screen (Where) when entering an invalid password containing emojis (When).`
 3. **Issue Type:**
-   - **Functional:** System violates business logic, calculation error, broken API request, or unhandled exception.
-   - **GUI (Graphical User Interface):** Visual misalignment, broken responsiveness, overlapping text, wrong branding colors, or missing icons.
+  - **Functional:** System violates business logic, calculation error, broken API request, or unhandled exception.
+  - **GUI (Graphical User Interface):** Visual misalignment, broken responsiveness, overlapping text, wrong branding colors, or missing icons.
 4. **Pre-condition:** Initial system prerequisites before step 1 (e.g., *"User logged in with active Freemium plan and cart has 2 items"*).
 5. **Steps to Reproduce:** Exact, numbered steps providing precise inputs and click targets.
 6. **Expected Result:** Clear, expected system behavior based on specifications.
